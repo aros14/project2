@@ -33,5 +33,14 @@
 }
 
 #main-nav ul li a:hover {
-  background-color: hotpink;
+  background-color: #e07ebc;
+}
+
+@font-face {
+  font-family: rubikPuddle;
+  src: url(fonts/RubikPuddles-Regular.ttf);
+}
+
+h1 {
+  font-family: rubikPuddle;
 }
