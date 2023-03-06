@@ -23,6 +23,7 @@
   position: relative;
   right: 50%;
   display: block;
+  font-family: "Leelawadee";
 }
 
 #main-nav ul li a {
@@ -33,14 +34,24 @@
 }
 
 #main-nav ul li a:hover {
-  background-color: #e07ebc;
-}
-
-@font-face {
-  font-family: "rubikPuddle";
-  src: url('fonts/RubikPuddles-Regular.ttf');
+  background-color: #ff9eb8;
 }
 
 h1 {
-  font-family: rubikPuddle;
+  background-color: mediumvioletred;
+  color: lightpink;
+  font-size: 60px;
 }
+
+h3 {
+  font-family: "Leelawadee";
+}
+
+p {
+font-family: "Merriweather";
+}
+
+li {
+font-family: "Merriweather";
+}
+
