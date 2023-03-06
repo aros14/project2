@@ -37,8 +37,8 @@
 }
 
 @font-face {
-  font-family: rubikPuddle;
-  src: url(fonts/RubikPuddles-Regular.ttf);
+  font-family: "rubikPuddle";
+  src: url('fonts/RubikPuddles-Regular.ttf');
 }
 
 h1 {
