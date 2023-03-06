@@ -1,0 +1,37 @@
+#main-nav {
+  background-color: lightpink;
+  overflow: hidden;
+}
+
+#nav-contain {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#main-nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: mediumvioletred;
+  text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+  background-color: hotpink;
+}
