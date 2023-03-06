@@ -41,6 +41,7 @@ h1 {
   background-color: mediumvioletred;
   color: lightpink;
   font-size: 60px;
+  text-align: center;
 }
 
 h3 {
@@ -55,3 +56,12 @@ li {
 font-family: "Merriweather";
 }
 
+#resume-body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/007/001/429/original/pink-watercolor-background-abstract-texture-with-color-splash-design-free-photo.jpg");
+}
+
+#contact-info {
+  float: right;
+  padding-right: 50px;
+  display: block;
+}
