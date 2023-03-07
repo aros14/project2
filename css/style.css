@@ -190,3 +190,18 @@ font-family: "Merriweather";
   background-image: url("https://static.vecteezy.com/system/resources/previews/005/225/932/original/strawberry-and-hearts-on-pink-background-seamless-pattern-in-flat-style-vector.jpg");
   background-size: 50%;
 }
+
+#music-section {
+  border-style: dashed;
+  float: right;
+}
+
+#soccer-section {
+  border-style: dashed;
+  float:left;
+}
+
+#coloring-section {
+  border-style: dashed;
+  float: right;
+}
