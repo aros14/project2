@@ -46,6 +46,7 @@ h1 {
 
 h3 {
   font-family: "Leelawadee";
+  text-align: center;
 }
 
 p {
@@ -74,20 +75,37 @@ font-family: "Merriweather";
 
 #edu-info {
   float: left;
-  padding: 30px;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 30px;
   border-style: dashed;
 }
 
 #experience-info {
   float: right;
-  padding: 30px;
+  padding: 15px;
+  padding-bottom: 2px;
+  margin-left: 0px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 0px;
   border-style: dashed;
 }
 
-#experience-info {
-  float: right;
-  left: 50%
+#skills-info {
+  left: 50%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 640px;
+  margin-bottom: 30px;
+  padding: 15px;
   border-style: dashed;
+}
+
+.h3-underline {
+  text-decoration: underline mediumvioletred 10px;
 }
 
 #places-body {
