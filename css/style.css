@@ -58,16 +58,32 @@ font-family: "Merriweather";
 
 #resume-body {
   background-image: url("https://static.vecteezy.com/system/resources/previews/007/001/429/original/pink-watercolor-background-abstract-texture-with-color-splash-design-free-photo.jpg");
+  text-align: center;
 }
 
 #contact-info {
-  float: right;
+  /*float: right;
   padding-right: 200px;
   padding-left: 200px;
   display: block;
   width: 400px;
-  border-style: dotted;
+  border-style: dotted; */
 }
 
 #places-body {
-  background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-pink-marble-texture-background-picture-image_1282304.jpg")
+  background-image: url("https://img.freepik.com/free-vector/watercolor-sugar-cotton-clouds-background_23-2149219078.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+
+.mxca-img {
+  width: 250px;
+  height: 450px;
+  padding-left: 15px;
+}
+
+.eu-img {
+  width: 250px;
+  height: 375px;
+  padding-left: 15px;
+} 
