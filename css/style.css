@@ -62,6 +62,12 @@ font-family: "Merriweather";
 
 #contact-info {
   float: right;
-  padding-right: 50px;
+  padding-right: 200px;
+  padding-left: 200px;
   display: block;
+  width: 400px;
+  border-style: dotted;
 }
+
+#places-body {
+  background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-pink-marble-texture-background-picture-image_1282304.jpg")
