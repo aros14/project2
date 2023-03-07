@@ -205,3 +205,18 @@ font-family: "Merriweather";
   border-style: dashed;
   float: right;
 }
+
+#penguin {
+  width: 100px;
+  height: 100px;
+}
+
+#snoopy {
+  width: 100px;
+  height: 100px;
+}
+
+#hello-kitty {
+  width: 100px;
+  height: 100px;
+}
