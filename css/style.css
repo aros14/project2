@@ -71,6 +71,11 @@ font-family: "Merriweather";
   margin-top: 25px;
   padding: 10px;
   background: rgba(199, 21, 133,0.4);
+  transition: all .2s ease-in-out; 
+}
+
+#contact-info:hover { 
+  transform: scale(1.1); 
 }
 
 #edu-info {
@@ -80,8 +85,9 @@ font-family: "Merriweather";
   margin-right: 0px;
   margin-top: 15px;
   margin-bottom: 30px;
-  border-style: dashed;
+  border: ridge rgba(255, 158, 184, .6); 
 }
+
 
 #experience-info {
   float: right;
@@ -91,8 +97,9 @@ font-family: "Merriweather";
   margin-right: 15px;
   margin-top: 15px;
   margin-bottom: 0px;
-  border-style: dashed;
+  border: ridge rgba(255, 158, 184, .6);
 }
+
 
 #skills-info {
   left: 50%;
@@ -101,11 +108,12 @@ font-family: "Merriweather";
   margin-top: 640px;
   margin-bottom: 30px;
   padding: 15px;
-  border-style: dashed;
+  border: ridge rgba(255, 158, 184, .6);
 }
 
+
 .h3-underline {
-  text-decoration: underline mediumvioletred 10px;
+  text-decoration: underline mediumvioletred 5px;
 }
 
 #places-body {
@@ -114,14 +122,70 @@ font-family: "Merriweather";
   background-repeat: repeat-y;
 }
 
+#mx-section {
+  text-align: center;
+  border-style: dotted;
+  border-color: mediumvioletred;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: rgba(199, 21, 133,0.2);
+}
+
+#ca-section {
+  text-align: center;
+  border-style: dotted;
+  border-color: mediumvioletred;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: rgba(255, 182, 193,0.4);
+}
+
 .mxca-img {
   width: 250px;
   height: 450px;
-  padding-left: 15px;
+  padding-left: 5px;
+  transition: all .2s ease-in-out;
+}
+
+.mxca-img:hover { 
+  transform: scale(1.1); 
+}
+
+#eu-section {
+  text-align: center;
+  border-style: dotted;
+  border-color: mediumvioletred;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: rgba(199, 21, 133,0.2);
 }
 
 .eu-img {
   width: 250px;
   height: 375px;
-  padding-left: 15px;
+  padding-left: 5px;
+  transition: all .2s ease-in-out;
 } 
+
+.eu-img:hover { 
+  transform: scale(1.1); 
+}
+
+#hobbies-body {
+  background-image: url("https://images.unsplash.com/photo-1609083380444-26fd227d7339?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&w=1000&q=80")
+}
