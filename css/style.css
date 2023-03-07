@@ -72,6 +72,24 @@ font-family: "Merriweather";
   background: rgba(199, 21, 133,0.4);
 }
 
+#edu-info {
+  float: left;
+  padding: 30px;
+  border-style: dashed;
+}
+
+#experience-info {
+  float: right;
+  padding: 30px;
+  border-style: dashed;
+}
+
+#experience-info {
+  float: right;
+  left: 50%
+  border-style: dashed;
+}
+
 #places-body {
   background-image: url("https://img.freepik.com/free-vector/watercolor-sugar-cotton-clouds-background_23-2149219078.jpg");
   background-size: 100%;
