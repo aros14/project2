@@ -194,6 +194,12 @@ font-family: "Merriweather";
 #music-section {
   border-style: dashed;
   float: right;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 800px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #soccer-section {
@@ -206,17 +212,13 @@ font-family: "Merriweather";
   float: right;
 }
 
-#penguin {
-  width: 100px;
-  height: 100px;
+.music-imgs {
+  width: 150px;
+  height: 150px;
+  padding: 5px;
 }
 
-#snoopy {
-  width: 100px;
-  height: 100px;
-}
-
-#hello-kitty {
-  width: 100px;
-  height: 100px;
+.soccer-imgs {
+  width: 200;
+  height: 100;
 }
