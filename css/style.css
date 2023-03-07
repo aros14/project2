@@ -58,16 +58,18 @@ font-family: "Merriweather";
 
 #resume-body {
   background-image: url("https://static.vecteezy.com/system/resources/previews/007/001/429/original/pink-watercolor-background-abstract-texture-with-color-splash-design-free-photo.jpg");
-  text-align: center;
 }
 
 #contact-info {
-  /*float: right;
-  padding-right: 200px;
-  padding-left: 200px;
-  display: block;
-  width: 400px;
-  border-style: dotted; */
+  text-align: center;
+  border-style: inset;
+  border-color: mediumvioletred;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  background: rgba(199, 21, 133,0.4);
 }
 
 #places-body {
