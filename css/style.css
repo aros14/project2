@@ -192,33 +192,36 @@ font-family: "Merriweather";
 }
 
 #music-section {
-  border-style: dashed;
-  float: right;
-  padding: 15px;
-  margin-left: 20px;
-  margin-right: 800px;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  float: left;
+  width: 46%;
   background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 #soccer-section {
-  border-style: dashed;
-  float:left;
+  float: right;
+  width: 46%;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
 }
 
 #coloring-section {
   border-style: dashed;
-  float: right;
+  float: left;
 }
 
 .music-imgs {
-  width: 150px;
-  height: 150px;
-  padding: 5px;
+  width: 175px;
+  height: 175px;
+  padding-left: 23px;
 }
 
 .soccer-imgs {
-  width: 200;
-  height: 100;
+  width: 450px;
+  height: 300px;
+  padding-left: 90px;
 }
