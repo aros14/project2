@@ -211,8 +211,8 @@ font-family: "Merriweather";
 
 #coloring-section {
   float: left;
-  padding: 10px;
-  margin:5px;
+  padding: 20px;
+  margin:20px;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -220,10 +220,20 @@ font-family: "Merriweather";
   width: 175px;
   height: 175px;
   padding-left: 23px;
+  transition: transform .7s ease-in-out;
+}
+
+.music-imgs:hover {
+  transform: rotate(26deg);
 }
 
 .soccer-imgs {
   width: 450px;
   height: 300px;
   padding-left: 90px;
+  transition: transform .7s ease-in-out;
+}
+
+.soccer-imgs:hover {
+  transform: rotate(-26deg);
 }
