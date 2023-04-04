@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
 #main-nav {
   background-color: lightpink;
   overflow: hidden;
@@ -37,11 +39,9 @@
   background-color: #ff9eb8;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
-
 h1 {
   background-color: mediumvioletred;
-  font-family: 'Rubik Puddles&display'; 
+  font-family: 'Rubik Puddles', cursive; 
   color: lightpink;
   font-size: 60px;
   text-align: center;
