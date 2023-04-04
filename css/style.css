@@ -37,8 +37,11 @@
   background-color: #ff9eb8;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
 h1 {
   background-color: mediumvioletred;
+  font-family: 'Rubik Puddles&display'; 
   color: lightpink;
   font-size: 60px;
   text-align: center;
